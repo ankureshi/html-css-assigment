@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            background-color: aqua;
+             width: auto; 
+            height: auto;
+            border: 1px solid;
+            padding: auto;
+      
+        
+      }
+      .form-section {
+    justify-content: center;
+    color: blue;
+    display: flex;
+    font-size: 15px;
+    margin-bottom: 3px;
+
+    
+}
+
+        h1{
+            text-align: center;
+            background-color:rgb(66, 154, 189);
+            color: red;
+        }
+        h3{
+            text-align: left;
+            color: red;
+        }
+        .fname {
+        margin-left: 318px;
+        color: blue;
+      }
+      .mname {
+        
+        color: blue;
+      }
+      
+      .lname {
+        margin-left: 500px;
+        color: blue;
+      }
+      .residentStatus
+      {
+        margin-top: 5px;
+      }
+      .Email{
+        margin-bottom: 5px;
+    
+      }
+      label{
+        color: blue;
+      }
+      .country{
+        margin-left: 317px;
+        margin-bottom: 5px;
+        
+      }
+      .account{
+        color: blue;
+      }
+      .nickname{
+        margin-left: 260px;
+        color: blue;
+      }
+      
+.form-section2{
+    color: blue;
+    margin-bottom: 5px;
+}
+.form-buttons {
+    text-align: center;
+}
+.form-buttons button {
+    padding: 10px 20px;
+    border-color: rgb(28, 136, 73);
+    border-radius: 4px;
+    cursor: pointer;
+    background-color:rgb(71, 126, 148);
+    color: white;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+    </style>
+</head>
+<body>
+    <h1>Individual ragistration</h1>
+    <form>
+
+    <div class="form-title" >
+      <h3>User purticulars</h3>
+      </div>
+     <div class="form-section">
+      <span style="color: red;" align="left">*</span>
+     <label for="loginId">Login ID :</label>
+     
+     <input style="width: 100px" type="text" id="loginId" name="loginId" required>
+     </div>
+     <div class="form-section">
+      <span style="color: red;" align="left">*</span>
+      <label for="password">Password :</label>
+     
+     <input style="width: 100px" type="password" id="password" name="password" required>
+       </div>
+       <div class="form-section">
+        <span style="color: red;" align="left">*</span>
+      <label for="confirmPassword">ConfirmPassword</label>
+      <input style="width: 100px" type="password" id="password" name="confirmPassword" required>
+       </div>
+    
+     
+        <h3>Personal perticulars</h3>
+        <span style="color: red;" align="left">*</span>
+        <label for="Salutation">Salutation</label>
+        <select id="salutation" name="salutation" style="width: 100px;" required>
+            <option value="">Select</option>
+            <option value="Mr.">Mr.</option>
+            <option value="Mrs.">Mrs.</option>
+            <option value="Ms.">Ms.</option>
+        </select>
+
+     <span class="fname">FirstName <input style="width: 100px" type="text" name="FirstName" id="fname"></span>
+        
+        <span class="mname">MiddleName<input style="width: 100px" type="text" name="MiddleName" id="mname" ></span>
+
+        <span class="lname">LastName <input style="width: 100px" type="text" name="LastName" id="lname">
+          
+          <label for="residentStatus">Resident Status</label>
+        <select id="residentStatus" name="residentStatus"  style="width: 100px;" required>
+            <option value="">Select</option>
+            <option value="Indian">Indian</option>
+            <option value="N.R.I">N.R.I</option>
+        </select>
+        <span class="country">Country</span>
+        <select id="Country" name="Country" style="width: 100px;" required>
+            <option value="">Select</option>
+            <option value="India">India</option>
+            <option value="London">London</option>
+            <option value="U.A.E.">U.A.E.</option>
+        </select><br>
+        <span style="color: red;" align="left">*</span>
+        <label for="Email">Email</label>
+        
+        <input style="width: 100px" type="email" id="Email" name="Email"  requiered>
+        <h3>Account purticulars</h3>
+        <span style="color: red;" align="left">*</span>
+        <span class="account">15 digit Account No<input style="width: 100px" type="text" name="account" id="account"></span>
+        <span class="nickname">Nick Name <input style="width: 100px" type="text" name="Nick Name" id="nickname"></span>
+        <div class="form-section2">
+          <span style="color: red;" align="left">*</span>
+          <label for="fundTransfer">fundTransfer</label>
+          <select id="fundTransfer" name="fundTransfer" style="width: 100px" required>
+          <option value="">Select</option>
+          <option value="G-PAY">G-PAY</option>
+          <option value="Phone-pay">Phone-pay</option>
+          <option value="Net-banking">Net-banking</option>
+          </select>
+      </div>
+      
+      <h3>Declaration</h3>
+      <div class="form-section">
+          <p>i have read understood and heardby Agree to the terms and Conditions in ressprct of all products and channels. 
+    i understood that any changes in the terms and conditions applicable to this relationship to be made available to me on request at any IOB branches. i confirm that all accounts under this login name are operated signly and in case of joint account operated by either of survivior/ anyone or surviver(s) under his/her joint name respectively. i do herby declare that information furnished in this form is ture to the best of my knowledge and belide.</p>
+          </p> </div>
+          <div class="form-buttons">
+              <button type="submit">Submit</button>
+              <button type="reset">Reset</button>
+          </div>
+
+    </form>
+
+</body>
+</html>

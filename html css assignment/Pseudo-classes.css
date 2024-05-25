@@ -1,0 +1,16 @@
+body{
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+.active:active{
+  color: rgb(231, 28, 170);
+}
+.hover:hover{
+  color: rgb(184, 138, 53);
+}
+.visited:visited{
+  background-color: aqua;
+  color: black;
+}

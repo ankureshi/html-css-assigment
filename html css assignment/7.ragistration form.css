@@ -1,0 +1,25 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+form {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #897de6;
+    border-radius: 10px;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="Contact number"],
+  select {
+    width: 100%;
+    padding: 9px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #a15a5a;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type="submit"]:hover {
+    background-color: hsl(351, 37%, 70%);
+  }
